@@ -5,14 +5,11 @@ from calculator_1 import add, sub, mul, div
 
 a = 10
 b = 5
-resultadd = add(a, b)
-print("{} + {} = {}".format(a, b, resultadd))
-
-resultsub = sub(a, b)
-print("{} - {} = {}".format(a, b, resultsub))
-
-resultmul = mul(a, b)
-print("{} * {} = {}".format(a, b, resultmul))
-
-resultdiv = div(a, b)
-print("{} / {} = {}".format(a, b, resultdiv))
+result_1 = add(a, b)
+result_2 = sub(a, b)
+result_3 = mul(a, b)
+result_4 = div(a, b)
+print("{} + {} = {}".format(a, b, result_1))
+print("{} - {} = {}".format(a, b, result_2))
+print("{} * {} = {}".format(a, b, result_3))
+print("{} / {} = {}".format(a, b, result_4))
